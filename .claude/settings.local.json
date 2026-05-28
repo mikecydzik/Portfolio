@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Program Files\\\\nodejs\" -ErrorAction SilentlyContinue; Get-ChildItem \"C:\\\\Program Files \\(x86\\)\\\\nodejs\" -ErrorAction SilentlyContinue; Test-Path \"$env:APPDATA\\\\npm\\\\npm.cmd\")",
+      "PowerShell(Get-ChildItem \"$env:ProgramFiles\" -Directory | Where-Object {$_.Name -match 'node|nvm'} 2>$null; Get-ChildItem \"$env:LOCALAPPDATA\" -Directory | Where-Object {$_.Name -match 'node|nvm|fnm'} 2>$null)",
+      "PowerShell(winget --version 2>$null)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); node --version; npm --version)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(which npm *)",
+      "Bash(python3 -c ' *)",
+      "Bash(cp \"/c/Users/mikec/AppData/Local/Temp/Final Report - Machine Learning.pdf\" \"/c/Users/mikec/Website/public/projects/ML_Stock_Forecasting_Report.pdf\" *)",
+      "Bash(cp \"/c/Users/mikec/Downloads/Final Marketing Paper.pdf\" \"/c/Users/mikec/Website/public/projects/Chipotle_Consulting_Report.pdf\" *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
