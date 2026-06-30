@@ -21,7 +21,7 @@ export const featuredProjects = [
     description:
       "Power Apps solution for tracking and managing shop rejections and approvals across maintenance operations.",
     tools: ["Power Apps", "Power Automate", "SharePoint", "Power BI", "SQL"],
-    link: "https://chatgpt.com/g/g-p-68dfc98235f48191aa705796dd1f7756-shop-rejection-app-project/project",
+    link: "/projects/Redacted_Shop_Rejection_App_Project.pdf",
   },
   {
     id: 2,
