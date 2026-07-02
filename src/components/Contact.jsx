@@ -67,8 +67,8 @@ export default function Contact() {
             <ContactRow
               icon="GH"
               label="GitHub"
-              display="github.com/michaelcydzik"
-              href="#"
+              display="github.com/mikecydzik"
+              href="https://github.com/mikecydzik"
               isExternal={true}
             />
 

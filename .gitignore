@@ -3,3 +3,7 @@ dist
 .env
 .env.local
 .DS_Store
+
+# Sensitive personal documents — never commit
+public/W9*.pdf
+public/i-9*.pdf
