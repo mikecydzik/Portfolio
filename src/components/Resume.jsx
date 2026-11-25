@@ -49,6 +49,21 @@ export default function Resume() {
             {/* Experience */}
             <div>
               <p className="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-4">Experience</p>
+              <div className="bg-white rounded-xl border border-gray-200 p-6 mb-4">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                  <div>
+                    <h3 className="font-semibold text-[#0f2444]">Bank of America</h3>
+                    <p className="text-blue-600 text-sm font-medium mt-0.5">Relationship Banker</p>
+                    <p className="text-sm text-slate-500 mt-1">Great Neck, NY</p>
+                  </div>
+                  <span className="text-sm text-slate-400 whitespace-nowrap">August 2026 – Present</span>
+                </div>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Help clients with consumer banking needs, use Bank of America Life Plan to
+                  discuss financial priorities, and partner with specialists to connect clients
+                  with relevant products and services.
+                </p>
+              </div>
               <div className="bg-white rounded-xl border border-gray-200 p-6">
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-5">
                   <div>
@@ -87,8 +102,8 @@ export default function Resume() {
 
             <div className="space-y-3">
               <a
-                href="/resume.pdf"
-                download="Michael_Cydzik_Resume.pdf"
+                href="/Michael_Cydzik_Resume_.docx"
+                download="Michael_Cydzik_Resume_.docx"
                 className="flex items-center justify-center w-full px-5 py-3 bg-[#0f2444] text-white rounded-lg text-sm font-semibold hover:bg-[#1a3a5c] transition-colors"
               >
                 Download Resume

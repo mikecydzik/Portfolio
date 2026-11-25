@@ -7,3 +7,10 @@ dist
 # Sensitive personal documents — never commit
 public/W9*.pdf
 public/i-9*.pdf
+public/audit-*.pdf
+public/608a127b6d9c5971a69747df_*.pdf
+Michael_Cydzik_Resume.docx
+
+# ChatGPT-generated deploy folders
+netlify-docx-deploy/
+netlify-resume-deploy/
